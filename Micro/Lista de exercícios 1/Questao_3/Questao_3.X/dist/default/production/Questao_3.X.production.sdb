@@ -1,0 +1,123 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K20 ]
+[d frameptr 4065 ]
+"62 E:\Jogos\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 E:\Jogos\Microchip\xc8\v1.41\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 E:\Jogos\Microchip\xc8\v1.41\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 E:\Jogos\Microchip\xc8\v1.41\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 E:\Jogos\Microchip\xc8\v1.41\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"19 C:\Users\Tiago\Google Drive\ESCOLA\ENGENHARIA DE COMPUTACAO\Micro\Lista de exercícios 1\Questao_3\Questao_3.X\main.c
+[v _Delay_LCD Delay_LCD `(v  1 e 1 0 ]
+"25
+[v _Envia_Comando_Lcd Envia_Comando_Lcd `(v  1 e 1 0 ]
+"42
+[v _Envia_Dado_Lcd Envia_Dado_Lcd `(v  1 e 1 0 ]
+"59
+[v _Inicializa_Lcd Inicializa_Lcd `(v  1 e 1 0 ]
+"80
+[v _Delay_inicializacao_LCD Delay_inicializacao_LCD `(v  1 e 1 0 ]
+"86
+[v _main main `(v  1 e 1 0 ]
+[s S21 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"1030 E:\Jogos\Microchip\xc8\v1.41\include\pic18f45k20.h
+[s S30 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S39 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S48 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S50 . 1 `uc 1 T3CKI 1 0 :1:0 
+]
+[s S52 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S56 . 1 `S21 1 . 1 0 `S30 1 . 1 0 `S39 1 . 1 0 `S48 1 . 1 0 `S50 1 . 1 0 `S52 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES56  1 e 1 @3970 ]
+"1169
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"2452
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2673
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"86 C:\Users\Tiago\Google Drive\ESCOLA\ENGENHARIA DE COMPUTACAO\Micro\Lista de exercícios 1\Questao_3\Questao_3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"111
+} 0
+"59
+[v _Inicializa_Lcd Inicializa_Lcd `(v  1 e 1 0 ]
+{
+"69
+} 0
+"25
+[v _Envia_Comando_Lcd Envia_Comando_Lcd `(v  1 e 1 0 ]
+{
+[v Envia_Comando_Lcd@comando comando `uc  1 a 1 wreg ]
+[v Envia_Comando_Lcd@comando comando `uc  1 a 1 wreg ]
+"27
+[v Envia_Comando_Lcd@comando comando `uc  1 a 1 2 ]
+"40
+} 0
+"80
+[v _Delay_inicializacao_LCD Delay_inicializacao_LCD `(v  1 e 1 0 ]
+{
+"82
+[v Delay_inicializacao_LCD@i i `i  1 a 2 0 ]
+"84
+} 0
+"42
+[v _Envia_Dado_Lcd Envia_Dado_Lcd `(v  1 e 1 0 ]
+{
+[v Envia_Dado_Lcd@dado dado `uc  1 a 1 wreg ]
+[v Envia_Dado_Lcd@dado dado `uc  1 a 1 wreg ]
+"44
+[v Envia_Dado_Lcd@dado dado `uc  1 a 1 2 ]
+"57
+} 0
+"19
+[v _Delay_LCD Delay_LCD `(v  1 e 1 0 ]
+{
+"21
+[v Delay_LCD@i i `i  1 a 2 0 ]
+"23
+} 0

@@ -1,0 +1,294 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K20 ]
+[d frameptr 4065 ]
+"32 E:\Jogos\Microchip\xc8\v1.41\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 E:\Jogos\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 E:\Jogos\Microchip\xc8\v1.41\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 E:\Jogos\Microchip\xc8\v1.41\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 E:\Jogos\Microchip\xc8\v1.41\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 E:\Jogos\Microchip\xc8\v1.41\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 E:\Jogos\Microchip\xc8\v1.41\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 E:\Jogos\Microchip\xc8\v1.41\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 E:\Jogos\Microchip\xc8\v1.41\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"16 C:\Users\Tiago\Google Drive\ESCOLA\ENGENHARIA DE COMPUTACAO\Micro\Lista de exercícios 3\Questao4\Questao4_Lista_3.X\main.c
+[v _MY_ISR MY_ISR `IIH(v  1 e 1 0 ]
+"29
+[v _Numero Numero `(v  1 e 1 0 ]
+"65
+[v _Display Display `(v  1 e 1 0 ]
+"88
+[v _main main `(v  1 e 1 0 ]
+"982 E:\Jogos\Microchip\xc8\v1.41\include\pic18f45k20.h
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S56 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"1030
+[s S65 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S74 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S83 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S85 . 1 `uc 1 T3CKI 1 0 :1:0 
+]
+[s S87 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S91 . 1 `S56 1 . 1 0 `S65 1 . 1 0 `S74 1 . 1 0 `S83 1 . 1 0 `S85 1 . 1 0 `S87 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES91  1 e 1 @3970 ]
+"1169
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"2452
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2673
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S202 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"3136
+[s S211 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S215 . 1 `S202 1 . 1 0 `S211 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES215  1 e 1 @3997 ]
+[s S21 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"3212
+[s S30 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S34 . 1 `S21 1 . 1 0 `S30 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES34  1 e 1 @3998 ]
+[s S172 . 1 `uc 1 TMR1IP 1 0 :1:0 
+`uc 1 TMR2IP 1 0 :1:1 
+`uc 1 CCP1IP 1 0 :1:2 
+`uc 1 SSPIP 1 0 :1:3 
+`uc 1 TXIP 1 0 :1:4 
+`uc 1 RCIP 1 0 :1:5 
+`uc 1 ADIP 1 0 :1:6 
+`uc 1 PSPIP 1 0 :1:7 
+]
+"3288
+[s S181 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IP 1 0 :1:4 
+`uc 1 RC1IP 1 0 :1:5 
+]
+[u S185 . 1 `S172 1 . 1 0 `S181 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES185  1 e 1 @3999 ]
+[s S141 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"4914
+[s S145 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S154 . 1 `S141 1 . 1 0 `S145 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES154  1 e 1 @4029 ]
+"4979
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"4985
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @4031 ]
+"5798
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"5906
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"5912
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S232 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6932
+[s S241 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S250 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S254 . 1 `S232 1 . 1 0 `S241 1 . 1 0 `S250 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES254  1 e 1 @4082 ]
+"9 C:\Users\Tiago\Google Drive\ESCOLA\ENGENHARIA DE COMPUTACAO\Micro\Lista de exercícios 3\Questao4\Questao4_Lista_3.X\main.c
+[v _captura_h captura_h `i  1 e 2 0 ]
+[v _captura_l captura_l `i  1 e 2 0 ]
+"10
+[v _periodo periodo `i  1 e 2 0 ]
+"11
+[v _frequencia frequencia `i  1 e 2 0 ]
+"88
+[v _main main `(v  1 e 1 0 ]
+{
+"123
+} 0
+"44 E:\Jogos\Microchip\xc8\v1.41\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 66 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 70 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 65 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 56 ]
+"73
+} 0
+"62 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 36 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 40 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 39 ]
+[v ___ftmul@exp exp `uc  1 a 1 35 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 26 ]
+[v ___ftmul@f2 f2 `f  1 p 3 29 ]
+"157
+} 0
+"54 E:\Jogos\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 51 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 55 ]
+[v ___ftdiv@exp exp `uc  1 a 1 54 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 50 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 41 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 44 ]
+"86
+} 0
+"32 E:\Jogos\Microchip\xc8\v1.41\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 25 ]
+"32
+[v ___awtoft@c c `i  1 p 2 22 ]
+"42
+} 0
+"62 E:\Jogos\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 14 ]
+[v ___ftpack@exp exp `uc  1 p 1 17 ]
+[v ___ftpack@sign sign `uc  1 p 1 18 ]
+"86
+} 0
+"65 C:\Users\Tiago\Google Drive\ESCOLA\ENGENHARIA DE COMPUTACAO\Micro\Lista de exercícios 3\Questao4\Questao4_Lista_3.X\main.c
+[v _Display Display `(v  1 e 1 0 ]
+{
+[v Display@num num `i  1 p 2 30 ]
+"86
+} 0
+"8 E:\Jogos\Microchip\xc8\v1.41\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 25 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 21 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 23 ]
+"26
+} 0
+"8 E:\Jogos\Microchip\xc8\v1.41\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 18 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 20 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 14 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 16 ]
+"31
+} 0
+"29 C:\Users\Tiago\Google Drive\ESCOLA\ENGENHARIA DE COMPUTACAO\Micro\Lista de exercícios 3\Questao4\Questao4_Lista_3.X\main.c
+[v _Numero Numero `(v  1 e 1 0 ]
+{
+[v Numero@num num `i  1 p 2 26 ]
+"64
+} 0
+"16
+[v _MY_ISR MY_ISR `IIH(v  1 e 1 0 ]
+{
+"28
+} 0
