@@ -1,0 +1,2 @@
+Warning[2068] C:\Users\maria\Downloads\Lista2\Frequencimetro.c 20 : obsolete use of implicit 'int' detected
+Warning[2103] C:\Users\maria\Downloads\Lista2\Frequencimetro.c 20 : default startup code expects main function declared as 'void main (void)'
