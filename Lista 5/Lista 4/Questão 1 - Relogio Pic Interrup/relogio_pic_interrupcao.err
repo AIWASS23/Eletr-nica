@@ -1,0 +1,2 @@
+Warning[2068] E:\Users\Davi Torres\Desktop\Micro\Relogio_pic_interrupção.X\relogio_pic_interrupcao.c 314 : obsolete use of implicit 'int' detected
+Warning[2103] E:\Users\Davi Torres\Desktop\Micro\Relogio_pic_interrupção.X\relogio_pic_interrupcao.c 314 : default startup code expects main function declared as 'void main (void)'
