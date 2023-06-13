@@ -1,0 +1,4 @@
+CHAVES firebase: AIzaSyCzjBqEF47WO0yxIzNaQDugtnjAiOSUrGs
+URL: https://fir-esp-6aaa1-default-rtdb.europe-west1.firebasedatabase.app
+#define WIFI_SSID "Instituto Iracema"
+#define WIFI_PASSWORD "ThinkBig2023"
